@@ -25,7 +25,7 @@ io.on('connection', function(socket) {
 });
 
 
-http.listen(80, function () {
-console.log('server runninng');    
+http.listen(process.env.port, function () {
+console.log('server runninng');
 });
 
