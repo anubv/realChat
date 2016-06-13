@@ -1,0 +1,13 @@
+{
+  "name": "realChat",
+  "version": "0.0.1",
+  "description": "my first socket.io app",
+  "scripts": {
+    "start": "node ./index"
+  },
+  "dependencies": {
+    "ejs": "^2.4.2",
+    "express": "^4.10.2",
+    "socket.io": "^1.4.6"
+  }
+}
