@@ -24,9 +24,7 @@ io.on('connection', function(socket) {
     });
 });
 
-var port = (process.env.port || 80);
-
-http.listen(port, '0.0.0.0', function () {
-console.log('server runninng at' + port );
+http.listen(process.env.port, '0.0.0.0', function(err) {
+console.log('server runninng at ' + http.url );
 });
 
